@@ -1,0 +1,142 @@
+1. With space 
+
+----*
+---**
+--***
+-****
+*****
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+2.
+
+*
+***
+*****
+*******
+*********
+*******
+*****
+***
+*
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        int m=4;
+        for(int i=1;i<=m;i++){
+            for(int j=1;j<=(m-i)+1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
+
+3. Inverted equilateral triangle
+
+**********
+ ********
+  *****
+   ***
+    *
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i-1;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=(n-i)+(n-i)+1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+
+
+
+4. Equilateral triangle
+ 
+----*
+---***
+--*****
+-********
+***********
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i+(i-1);j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+5. Mega Diamond Problem 
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i+(i-1);j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        int m=4;
+        for(int i=1;i<=m;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=(m-i)+(m-i)+1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+

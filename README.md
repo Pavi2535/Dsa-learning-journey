@@ -12,3 +12,8 @@ Today I practiced star pattern printing in Java.
 * Nested loops
 * Row and column logic
 * How pattern output changes with loop conditions
+
+# Day 2 - Patterns
+
+Practiced equilateral, inverted, and diamond star patterns using nested loops.
+
