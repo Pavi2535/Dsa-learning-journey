@@ -17,3 +17,8 @@ Today I practiced star pattern printing in Java.
 
 Practiced equilateral, inverted, and diamond star patterns using nested loops.
 
+# Day 3 - Advanced Patterns
+
+Practiced more advanced star patterns in Java, improving understanding of nested loops and complex pattern logic.
+
+

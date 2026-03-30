@@ -1,0 +1,144 @@
+1.
+1
+12
+123
+1234
+12345
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            int y=1;
+            for(int j=1;j<=i;j++){
+                System.out.print(y);
+                y++;
+            }
+            System.out.println();
+            
+        }
+
+    }
+}
+
+2. 
+
+5
+54
+543
+5432
+54321
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            int y=5;
+            for(int j=1;j<=i;j++){
+                System.out.print(y);
+                y--;
+            }
+            System.out.println();
+            
+        }
+
+    }
+}
+
+
+3.
+
+1
+23
+456
+78910
+1112131415
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        int y=1;
+        for(int i=1;i<=n;i++){
+            
+            for(int j=1;j<=i;j++){
+                System.out.print(y);
+                y++;
+            }
+            System.out.println();
+            
+        }
+
+    }
+}
+
+4. 
+
+    1
+   121
+  12321
+ 1234321
+123454321
+
+
+class Main {
+    public static void main(String[] args) {
+        int i,j;
+        int n=5;
+        int y;
+        for(i=1;i<=n;i++){
+            //do not reset the value of y
+            for(j=1;j<=n-i;j++){
+                System.out.print(" ");  //this for space 
+            }
+            
+            y=1;
+            for(j=1;j<=i;j++){
+                System.out.print(y);  //this for increasing number 
+                y++;
+            }
+            
+             y=i-1;
+             for(j=1;j<=i-1;j++){
+                System.out.print(y);  //this for decreasing number 
+                y--;
+            }
+            System.out.println();
+        }
+    }
+}
+
+ 5. 
+
+    1
+   212
+  32123
+ 4321234
+543212345
+
+class Main {
+    public static void main(String[] args) {
+        int i,j;
+        int n=5;
+        int y;
+        for(i=1;i<=n;i++){
+            //do not reset the value of y
+            for(j=1;j<=n-i;j++){
+                System.out.print(" ");  
+            }
+            
+            y=i;
+            for(j=1;j<=i;j++){
+                System.out.print(y);  
+                y--;
+            }
+            
+             y=2;
+             for(j=1;j<=i-1;j++){
+                System.out.print(y);  
+                y++;
+            }
+            System.out.println();
+        }
+    }
+}
+
