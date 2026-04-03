@@ -2,3 +2,4 @@
 - Day 2: Equilateral, inverted & diamond patterns
 - Day 3: Advanced patterns
 - Day 4: Boundary and diagonal patterns
+- Day 5: ArrayList and Collections (min, max, sort, reverse, contains)

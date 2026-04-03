@@ -1,0 +1,35 @@
+ Day-5 : ArrayList 
+
+import java.util.*;
+class Main {
+    public static void  main(String[] args) {
+        ArrayList<Integer> a =new ArrayList<>();
+        a.add(10);
+        a.add(67);
+        a.add(98);
+        int x=Collections.max(a); //to find maximum value 
+        int y=Collections.min(a); //to find minimum value 
+        System.out.println(x);
+        System.out.println(y);
+         
+        boolean b=a.contains(67); //to check whether the element is present or not
+          System.out.println(b);
+          
+         
+          Collections.sort(a);  //to sort in ascending order 
+           System.out.println(a);
+           
+          
+          
+            Collections.sort(a,Collections.reverseOrder());
+            System.out.println(a);
+            
+          
+          
+        
+        
+        
+        
+        
+    }
+}
